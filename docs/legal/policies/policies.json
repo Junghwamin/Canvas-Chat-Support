@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "service": "Canvas-Chat",
+  "serviceUrl": "https://canvas-chat-ten.vercel.app",
+  "lastUpdated": "2026-10-14",
+  "sourceNote": "Public Markdown/JSON policy documents for the support repository. App TypeScript source is not published here.",
+  "fullTextJson": "./legal-pages.full.json",
+  "pages": [
+    {
+      "path": "/privacy",
+      "title": "개인정보 처리방침",
+      "markdown": "./privacy.md"
+    },
+    {
+      "path": "/terms",
+      "title": "이용약관",
+      "markdown": "./terms.md"
+    },
+    {
+      "path": "/ai-notice",
+      "title": "AI 이용 안내",
+      "markdown": "./ai-notice.md"
+    }
+  ],
+  "changeHistory": "./CHANGELOG.md",
+  "archive": {
+    "2026-10-13": "./archive/2026-10-13"
+  }
+}
